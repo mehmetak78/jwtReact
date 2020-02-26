@@ -1,3 +1,15 @@
+To Run Server
+    MEHMETs-MacBook-Pro:contact-keeper mehmetak$ npm run server
+
+To Run Client
+    MEHMETs-MacBook-Pro:contact-keeper mehmetak$ npm run client
+
+To Run Them Together
+    MEHMETs-MacBook-Pro:contact-keeper mehmetak$ npm run dev
+
+*************
+
+
 - Create an empty project called "jwtReact"
 - npm init
     MEHMETs-MacBook-Pro:contact-keeper mehmetak$ npm init -y
