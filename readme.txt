@@ -1,0 +1,27 @@
+- Create an empty project called "jwtReact"
+- npm init
+    MEHMETs-MacBook-Pro:contact-keeper mehmetak$ npm init -y
+- Change "package.json"
+    Use "server.js" instead of "index.js"
+- Install packages
+    MEHMETs-MacBook-Pro:jwtReact mehmetak$ npm install express bcryptjs jsonwebtoken
+- Dev dependencies
+    MEHMETs-MacBook-Pro:jwtReact mehmetak$ npm install -D nodemon concurrently
+- Add scripts to "package.json"
+    - add "start"
+          "scripts": {
+            "start": "node server.js",
+            "server": "nodemon server.js"
+          },
+- Git
+    - Create a file ".gitignore"
+           /node_modules
+    - Initialize the git repository
+        - MEHMETs-MacBook-Pro:contact-keeper mehmetak$ git init
+    - Add all files
+        - MEHMETs-MacBook-Pro:contact-keeper mehmetak$ git add .
+    - Commit
+        - MEHMETs-MacBook-Pro:contact-keeper mehmetak$ git commit -m "Initial Commit"
+
+    - Share in GitHub
+        VCS/Import Into Version Control/Share Project in Github
