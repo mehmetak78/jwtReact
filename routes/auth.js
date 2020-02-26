@@ -10,6 +10,7 @@ const authMiddleware = require("../middleware/authMiddleware");
 
 let USER_DB=  [
                     {
+                        name:"Mehmet",
                         username: "mehmetak78@hotmail.com",
                         password: "$2a$10$ND6GyTO5vuU/BNOXFZwNyupYbX6HirEkZFTu80lTf6AV9UhZpdkDK"
                     }
@@ -36,7 +37,7 @@ router.post("/login",
                     try {
                         let user = USER_DB.find((usr) => usr.username === username);
 
-                        if (user == undefined) {
+                        if (user === undefined) {
                             return res.status(400).json({msg: "Invalid Credentials"})
                         }
 
@@ -80,7 +81,7 @@ router.post("/register",
                }
 
 
-               const {username, password} = req.body;
+               const {name,username, password} = req.body;
                try {
                    let user = USER_DB.find((usr) => usr.username === username);
 
@@ -89,6 +90,7 @@ router.post("/register",
                        return res.status(400).json({msg: "User Already Exists"});
                    } else {
                        const user = {
+                           name,
                            username,
                            password
                        };

@@ -2,32 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0dee852-59ee-40ba-878f-c8331905365e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/auth/Register.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Alerts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/Spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/layout/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/pages/About.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/pages/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/routing/PrivateRoute.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/alert/AlertContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/alert/AlertReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/alert/AlertState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/auth/AuthContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/auth/AuthReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/auth/AuthState.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/context/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/createUUID.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/utils/setAuthToken.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/layout/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/createUUID.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/createUUID.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582730154300</updated>
       <workItem from="1582730155409" duration="7786000" />
-      <workItem from="1582747364763" duration="3741000" />
+      <workItem from="1582747364763" duration="4193000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1582730793866</created>
@@ -130,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582747466947</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished">
+      <created>1582751180606</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582751180606</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
