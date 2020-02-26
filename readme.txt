@@ -4,7 +4,7 @@
 - Change "package.json"
     Use "server.js" instead of "index.js"
 - Install packages
-    MEHMETs-MacBook-Pro:jwtReact mehmetak$ npm install express bcryptjs jsonwebtoken
+    MEHMETs-MacBook-Pro:jwtReact mehmetak$ npm install express bcryptjs jsonwebtoken express-validator config
 - Dev dependencies
     MEHMETs-MacBook-Pro:jwtReact mehmetak$ npm install -D nodemon concurrently
 - Add scripts to "package.json"
@@ -13,6 +13,7 @@
             "start": "node server.js",
             "server": "nodemon server.js"
           },
+- create file "server.js"
 - Git
     - Create a file ".gitignore"
            /node_modules
@@ -25,3 +26,5 @@
 
     - Share in GitHub
         VCS/Import Into Version Control/Share Project in Github
+
+-
