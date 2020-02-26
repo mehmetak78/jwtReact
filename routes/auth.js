@@ -10,8 +10,8 @@ const authMiddleware = require("../middleware/authMiddleware");
 
 let USER_DB=  [
                     {
-                        username: "mehmet",
-                        password: "$2a$10$BHajXqxBAgyS7gItGBtE8eJAEyuBS2CKvfftadDGwFY2/fXDey9mq"
+                        username: "mehmetak78@hotmail.com",
+                        password: "$2a$10$ND6GyTO5vuU/BNOXFZwNyupYbX6HirEkZFTu80lTf6AV9UhZpdkDK"
                     }
         ];
 
@@ -30,6 +30,7 @@ router.post("/login",
                         return res.status(400).json({errors: errors.array()});
                     }
 
+                    console.log(req.body);
                     const {username, password} = req.body;
 
                     try {
