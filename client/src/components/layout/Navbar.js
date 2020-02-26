@@ -53,8 +53,8 @@ Navbar.propTypes = {
 };
 
 Navbar.defaultProps = {
-    title: "Contact Keeper",
-    icon : "fas fa-id-card-alt"
+    title: "JWT REACT",
+    icon : "fas fa-key"
 };
 
 export default Navbar;
