@@ -14,3 +14,4 @@ app.listen(PORT, () => console.log(`Server Started on Port: ${PORT}`));
 
 // Define Routes
 app.use("/api/auth", require("./routes/auth"));
+app.use("/api/admin", require("./routes/admin"));
