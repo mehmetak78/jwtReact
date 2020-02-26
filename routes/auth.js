@@ -16,8 +16,6 @@ let USER_DB=  [
                     }
         ];
 
-
-
 router.post("/login",
            [
                check("username", "Please include a valid username")
@@ -119,7 +117,7 @@ router.post("/register",
 router.get("/currentUser", authMiddleware, async (req, res) => {
     try {
         let user = USER_DB.find((usr) => usr.username === req.user.username);
-        res.json(user);
+        await res.json(user);
     }
     catch(err) {
         console.log(err.message);
