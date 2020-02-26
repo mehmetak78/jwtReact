@@ -3,7 +3,7 @@ import React, {useContext, useEffect} from 'react';
 
 import AuthContext from "../../context/auth/AuthContext";
 
-const Home = props => {
+const PrivateHome = props => {
     const authContext = useContext(AuthContext);
 
     useEffect(() => {
@@ -21,4 +21,4 @@ const Home = props => {
 };
 
 
-export default Home;
+export default PrivateHome;

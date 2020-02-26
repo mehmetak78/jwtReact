@@ -99,5 +99,5 @@
             - Create file sipinner.gif
             - Create file Spinner.js
         - Create folder pages
-            - Create file Home.js
+            - Create file PrivateHomeateHome.js
             - Create file About.js
